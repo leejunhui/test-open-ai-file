@@ -1,0 +1,40 @@
+node_modules
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+
+dist
+apps/electron/build
+apps/web/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.history
+.pnpm-debug.log
+pnpm-error.log*
+.pnpm-debug.log
+.eslintcache
+
+.idea
+build/
+upload_file.py
+iworkMultiProjectWebAppRegistryScript.py
+appCofingFileName.txt
+# 忽略包大小分析文件
+analyse.html
+
+.nx
+
+release/
